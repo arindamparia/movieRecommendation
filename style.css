@@ -19,26 +19,26 @@ body {
 }
 
 #movieInfo {
-    width:  65%;
-    margin:  32px auto;
+    width: 65%;
+    margin: 32px auto;
 }
 
 #movieInfo:after {
-    content:  "";
-    display:  table;
-    clear:  both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #moviePoster, #movieText {
-    width:  50%;
-    float:  left;
+    width: 50%;
+    float: left;
 }
 
-#moviePoster img{
-    width:  100%;
-    height:  auto;
-    display:  block;
-    margin:  auto;
+#moviePoster img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 #movieText {
@@ -47,13 +47,15 @@ body {
     line-height: 1.25;
 }
 
-#movieTitle, #movieOverview {
-    padding:  32px;
+#movieTitle, #movieOverview, .movieDuration, .movieRelease {
+    padding: 32px;
 }
+
 #movieTitle {
     font-size: 40px;
     color: lawngreen;
 }
+
 #playBtn {
     margin-top: 20px;
     font-size: 25px;
@@ -62,7 +64,7 @@ body {
     border-style: none;
     background-color: #B97828;
     color: #fdc238;
-    cursor:  pointer;
+    cursor: pointer;
 }
 
 label {
@@ -86,7 +88,7 @@ select {
     font-size: 25px;
     border-radius: 12px;
     border-style: none;
-    cursor:  pointer;
+    cursor: pointer;
 }
 
 #likeBtn {
